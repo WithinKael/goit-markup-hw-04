@@ -160,7 +160,7 @@ address {
 /* ======================= SECTION HERO ================== */
 
 .section-hero {
-  max-width: 1440px;
+  max-width: 1440px; /* Обясните почему тут Margin left auto, почему max-width */
   padding: 188px 0;
   margin-left: auto;
   margin-right: auto;
@@ -214,8 +214,17 @@ address {
   flex-basis: calc((100% - 24px * 3) / 4);
 }
 
+.section-one-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  padding: 24px 0;
+  background: var(--cloud);
+}
+
 .section-one-subtitle {
-  margin-bottom: 8px;
+  margin-top: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -224,6 +233,7 @@ address {
 }
 
 .section-one-text {
+  margin-top: 8px;
   color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
@@ -333,6 +343,33 @@ address {
   background-color: var(--ocean);
 }
 
+/* ======================= SECTION FOUR ================== */
+
+.section-four-title {
+  margin-bottom: 72px;
+  color: var(--navy-blue);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.section-four-list {
+  display: flex;
+  column-gap: 24px;
+  justify-content: center;
+}
+
+.section-four-item {
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: 1px solid var(--light-slate);
+}
+.section-four-svg {
+  fill: var(--light-slate);
+}
 /* ======================= FOOTER ================== */
 
 .footer {
