@@ -380,12 +380,14 @@ address {
   color: var(--light-slate);
 }
 
-.section-four-link:hover {
+.section-four-link:hover,
+.section-four-link:active {
   border-color: var(--ocean);
   color: var(--ocean);
 }
 
-.section-four-link:focus {
+.section-four-link:focus,
+.section-four-link:active {
   border-color: var(--ocean);
   color: var(--ocean);
 }
@@ -470,12 +472,9 @@ address {
   display: block;
 }
 
-.gallary-link:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.gallary-link:focus {
+.gallary-link:hover,
+.gallary-link:focus,
+.gallary-link:active {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
