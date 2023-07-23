@@ -397,6 +397,12 @@ address {
 }
 /* ======================= FOOTER ================== */
 
+.footer-body {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
+
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -427,6 +433,43 @@ address {
   color: var(--cloud);
 }
 
+.footer-container-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.footer-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-list-item {
+  display: flex;
+  gap: 16px;
+  width: 40px;
+  height: 40px;
+}
+
+.footer-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--iris);
+  border-radius: 50%;
+}
+
+.footer-social-link:hover {
+  background-color: var(--green);
+}
+.footer-svg {
+  fill: var(--cloud);
+}
 /* ======================= PORTFOLIO ================== */
 
 .portfolio-hero {
