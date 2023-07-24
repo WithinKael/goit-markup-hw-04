@@ -524,9 +524,6 @@ address {
 }
 
 .portfolio-filter-btn {
-  /* transition-property: color, box-shadow, border, background-color;
-  transition-duration: var(--timing-duration);
-  transition-timing-function: var(--timing-function); */
   border-radius: 4px;
   padding: 12px 24px;
   border: 1px solid var(--cornflower);
@@ -536,6 +533,9 @@ address {
   letter-spacing: 0.04em;
   color: var(--iris);
   background-color: var(--cloud);
+  transition-property: color, box-shadow, border, background-color;
+  transition-duration: var(--timing-duration);
+  transition-timing-function: var(--timing-function);
 }
 
 .portfolio-filter-btn:hover {
