@@ -48,7 +48,7 @@ body {
 button {
   cursor: pointer;
   border: none;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 .list {
@@ -392,7 +392,7 @@ address {
 }
 
 .section-four-svg {
-  fill: var(--light-slate);
+  fill: inherit;
 }
 /* ======================= FOOTER ================== */
 
@@ -539,10 +539,12 @@ address {
 }
 
 .portfolio-filter-btn:hover {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-filter-btn:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .gallary-list {
